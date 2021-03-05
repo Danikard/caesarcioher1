@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 import static com.company.encrypt.encrypt;
-import static com.company.decrypt.decrypt,
+import static com.company.decrypt.decrypt;
 
 public class Main {
 
