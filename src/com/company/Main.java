@@ -8,12 +8,15 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("welcome to encrypt & decrypt");
-        System.out.println("enter Text");
-        System.out.println("enter Key");
         Scanner cipher= new Scanner(System.in);
-        Scanner key =new Scanner(System.in);
+        System.out.println("enter Text : ");
         String message=cipher.nextLine();
+
+        Scanner key =new Scanner(System.in);
+        System.out.println("enter Key: ");
         Integer n = key.nextInt();
+
+
         String encryptText=encrypt(message,n);
         String decryptText=decrypt(message, n);
         System.out.println(encryptText);
